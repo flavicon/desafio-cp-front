@@ -21,10 +21,13 @@
 `cd desafio-cp-front`
 
 #### 3. Digite o comando para baixar todas as dependências.
-`npm`
+`yarn`
 
-#### 4. Para executar o projeto digite.
-`npm start`
+#### 4. Para incializar o json-server execute o comando:
+`yarn server`
+
+#### 5. Para executar o projeto digite.
+`yarn start`
 
 ### >>> O projeto irá excutar no endereço: http://localhost:3000
 
