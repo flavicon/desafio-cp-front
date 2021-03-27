@@ -13,11 +13,13 @@ export const Container = styled.aside`
         font-size: 93.75%;
         font-weight: 500;
         line-height: 3;
+        color: var(--text-gray);
 
         li:first-child {
             list-style-type: disc;
             font-size: 1rem;
             font-weight: 700;
+            color: var(--text-black);
             margin-left: 1rem;
         }
 
