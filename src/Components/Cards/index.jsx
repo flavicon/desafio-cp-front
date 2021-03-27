@@ -1,18 +1,10 @@
-import { useEffect, useState } from "react";
 import { Container } from "./styles";
-import { api } from '../../services/api';
 
-export function Cards() {
-
-    const [books, setBooks] = useState([]);
-
-    useEffect(() => {
-        api.get('books').then(response => setBooks(response.data));
-    }, []);
+export function Cards(props) {
 
     return (
         <Container>
-            {books.map(
+            {props.books.map(
                 book => {
                     return(
                         <div className="card">

@@ -1,7 +1,6 @@
-import { BannerPromotions } from "./Components/BannerPromotions";
-import { Cards } from "./Components/Cards";
 import { Navbar } from "./Components/Navbar";
-import { Sidebar } from "./Components/SideBar";
+import { BannerPromotions } from "./Components/BannerPromotions";
+import { Home } from './Components/Home';
 import { GlobalStyle } from './styles/global';
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
     <>
       <Navbar />
       <BannerPromotions />
-      <Sidebar />
-      <Cards />
+      <Home />
       <GlobalStyle />
     </>
   );

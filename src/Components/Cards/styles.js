@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    margin: 2rem -2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
     max-width: 900px;
     .card {
         display: grid;
-        grid-template-columns: repeat(2, 240px);
+        grid-template-columns: repeat(2, 250px);
         align-items: center;
         
         .card-description {
@@ -52,6 +53,13 @@ export const Container = styled.div`
                 padding: 1rem;
                 margin-top: 0.5rem;
                 max-width: 176px;
+
+                transition: filter 0.2s;
+                
+                &:hover {
+                    cursor: pointer;
+                    filter: brightness(0.9);
+                }
 
             }
 
