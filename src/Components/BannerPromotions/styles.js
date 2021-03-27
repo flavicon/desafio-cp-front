@@ -62,6 +62,7 @@ export const Container = styled.div`
             }
 
             div {
+                width: 100px;
                 margin: 1rem auto;
             }
 
@@ -85,6 +86,7 @@ export const Container = styled.div`
             }
 
             div {
+                width: 100px;
                 margin: 1rem auto;
             }
 
