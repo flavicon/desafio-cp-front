@@ -1,7 +1,7 @@
 import { Container } from './styles';
 import { PermIdentity, ShoppingBasket, Search } from '@material-ui/icons';
 
-export function NavBar() {
+export function Navbar() {
 
     return(
         <Container>

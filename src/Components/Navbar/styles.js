@@ -40,7 +40,7 @@ export const Container = styled.nav`
 
     .options {
         width: 100%;
-        max-width: 170px;
+        max-width: 150px;
 
         ul {
             display: flex;

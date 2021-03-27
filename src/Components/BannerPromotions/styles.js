@@ -55,6 +55,7 @@ export const Container = styled.div`
             height: 200px;
             align-items: center;
             justify-content: end;
+            transition: filter 0.2s;
 
             p {
                 width: 100px;
@@ -68,6 +69,7 @@ export const Container = styled.div`
 
             &:hover {
                 cursor: pointer;
+                filter: brightness(0.9);
             }
         }
 
@@ -79,6 +81,7 @@ export const Container = styled.div`
             height: 250px;
             align-items: center;
             justify-content: end;
+            transition: filter 0.2s;
 
             p {
                 width: 100px;
@@ -92,6 +95,7 @@ export const Container = styled.div`
 
             &:hover {
                 cursor: pointer;
+                filter: brightness(0.9);
             }
         }
     }
