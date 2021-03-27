@@ -1,10 +1,14 @@
-import { NavBar } from "./NavBar";
+import { BannerPromotions } from "./Components/BannerPromotions";
+import { NavBar } from "./Components/NavBar";
+import { GlobalStyle } from './styles/global';
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-    </div>
+      <BannerPromotions />
+      <GlobalStyle />
+    </>
   );
 }
 
