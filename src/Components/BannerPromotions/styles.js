@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background: var(--background-banner) url('assets/illustration.svg') no-repeat bottom;
-    width: 100%;
-    max-width: 1120px;
+    width: 80%;
     height: 700px;
     margin: 1rem auto;
     display: grid;
@@ -19,33 +18,16 @@ export const Container = styled.div`
             color: var(--text-black);
         }
 
-        /* .off {
-            display: grid;
-            grid-template-columns: repeat(3, 200px);
-            justify-content: center;
-
-            .up-img {
-                align-items: right;
-            }
-
-            .amount-img {
-                
-                margin-right: 2rem; 
-            }
-
-            .percent-img {
-
-            }
-        }  */
     }
 
     .cards {
-        margin-top: -5rem;
-        margin-bottom: 5rem;
         display: flex;
+        margin-top: -18rem;
+        height: 500px;
         flex-direction: column;
         justify-content: space-between;
-        align-items: end;
+        align-items: flex-end;
+
 
         .first-card {
             display: flex;
@@ -70,6 +52,7 @@ export const Container = styled.div`
             &:hover {
                 cursor: pointer;
                 filter: brightness(0.9);
+                box-shadow: 0 1px 10px #9E98DC;
             }
         }
 
@@ -96,6 +79,7 @@ export const Container = styled.div`
             &:hover {
                 cursor: pointer;
                 filter: brightness(0.9);
+                box-shadow: 0 1px 10px #FF8FE6;
             }
         }
     }

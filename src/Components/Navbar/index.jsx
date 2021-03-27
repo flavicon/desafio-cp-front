@@ -1,17 +1,20 @@
 import { Container } from './styles';
 import { PermIdentity, ShoppingBasket, Search } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 export function Navbar() {
 
     return(
         <Container>
             <div className="logo">
-                Bookstore
+                <Link to="/">Bookstore</Link>
             </div>
 
             <div className="menu">
                 <ul>
-                    <li>BOOKS</li>
+                    <li>
+                        <Link to="/Books">BOOKS</Link>
+                    </li>
                     <li>AUDIOBOOKS</li>
                     <li>STATIONERY &amp; GIFTS</li>
                     <li>BLOG</li>

@@ -5,17 +5,7 @@ export function BannerPromotions() {
         <Container>
             <header>
                 <h2>BIG SUMMER SALE</h2>
-                {/* <div className="off">
-                    <div className="up-img">
-                        <img src="assets/off/up.svg" alt="up"/>
-                    </div>
-                    <div className="amount-img">
-                        <img src="assets/off/60.svg" alt="amount"/>
-                    </div>
-                    <div className="percent-img">
-                    <img src="assets/off/percent.svg" alt="percent"/>
-                    </div>
-                </div> */}
+                <img src="assets/promotion.svg" alt="promoção 60% off"/>
             </header>
             <div className="cards">
                 <div className="first-card">

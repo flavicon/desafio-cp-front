@@ -2,8 +2,6 @@ import { Container } from "./styles";
 
 export function Sidebar(props) {
 
-
-
     return (
         <Container>
             <ul>

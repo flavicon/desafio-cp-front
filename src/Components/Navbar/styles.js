@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
-    width: 100%;
-    max-width: 1110px;
+    width: 80%;
+
     padding: 2rem 0 1rem;
     margin: 0 auto;
     display: flex;
@@ -12,8 +12,10 @@ export const Container = styled.nav`
     .logo {
         font-weight: 700;
         font-size: 2rem;
-        color: var(--text-black);
-        
+        a {
+            text-decoration: none;
+            color: var(--text-black);
+        }
     }
 
     .menu {
@@ -23,17 +25,19 @@ export const Container = styled.nav`
         ul {      
             display: flex;
             justify-content: space-between;
-            font-size: 0.75rem;
+            font-size: 10px;
             list-style-type: none;
             
-            li:first-child {
-                font-weight: 900;
-                color: var(--text-black);
-            }
-            
+
             li {
                 color: var(--text-gray);
                 font-weight: bold;
+
+                a:first-child {
+                    font-weight: 900;
+                    color: var(--text-black);
+                    text-decoration: none;
+                }
             }
         }
     }

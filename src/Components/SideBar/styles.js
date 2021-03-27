@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.aside`
     background-color: #EFEEF6;
-    width: 350px;
-    height: 650px; 
+    min-width: 400px;
+    max-width: 500px;
+    height: 600px; 
 
     display: flex;
     
